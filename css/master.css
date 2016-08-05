@@ -95,6 +95,10 @@ table {
       width: 20vw;
       text-align: center;
       color: #BBBBBB; }
+      #staticFooter ul#cprite li span {
+        text-decoration: underline;
+        cursor: pointer;
+        padding-left: .5em; }
 
 #staticNav {
   background-color: #FFFFFF;

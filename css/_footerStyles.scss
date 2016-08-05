@@ -67,6 +67,11 @@
 			width:20vw;
 			text-align:center;
 			color:$silver-sand;
+			span{
+				text-decoration:underline;
+				cursor:pointer;
+				padding-left:.5em;
+			}
 		}
 	}
 }
