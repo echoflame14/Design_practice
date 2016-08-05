@@ -1,3 +1,27 @@
 #staticNav{
 	background-color:$white;
+	border-bottom: solid 2px $lowLight;
+	border-top: solid 2px $lowLight;
+	height: 5vh;
+	align-items: center;
+	h1{
+		float: left;
+		width:5vw;
+		height:5vh;
+		background:red;
+		text-align:center;
+		line-height:5vh;
+	}
+	ul{
+		width:60vw;
+		float:right;
+		display:flex;
+		height:5vh;
+		li{
+			width:20%;
+			text-align:center;
+			height:5vh;
+			line-height:5vh;
+		}
+	}
 }

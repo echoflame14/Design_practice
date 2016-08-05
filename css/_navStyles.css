@@ -4,7 +4,11 @@ Error: Undefined variable: "$white".
 
 1: #staticNav{
 2: 	background-color:$white;
-3: }
+3: 	border-bottom: solid 2px $lowLight;
+4: 	border-top: solid 2px $lowLight;
+5: 	height: 5vh;
+6: 	align-items: center;
+7: 	h1{
 
 Backtrace:
 _navStyles.scss:2
@@ -59,4 +63,4 @@ _navStyles.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 2 of _navStyles.scss\A \A 1: #staticNav{\A 2: 	background-color:$white;\A 3: }"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 2 of _navStyles.scss\A \A 1: #staticNav{\A 2: 	background-color:$white;\A 3: 	border-bottom: solid 2px $lowLight;\A 4: 	border-top: solid 2px $lowLight;\A 5: 	height: 5vh;\A 6: 	align-items: center;\A 7: 	h1{"; }

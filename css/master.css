@@ -42,11 +42,33 @@ table {
   border-spacing: 0; }
 
 #staticFooter {
+  clear: both;
   width: 100vw;
   height: 60vh;
   background-color: #F8F8F8; }
 
 #staticNav {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  border-bottom: solid 2px #ECECEC;
+  border-top: solid 2px #ECECEC;
+  height: 5vh;
+  align-items: center; }
+  #staticNav h1 {
+    float: left;
+    width: 5vw;
+    height: 5vh;
+    background: red;
+    text-align: center;
+    line-height: 5vh; }
+  #staticNav ul {
+    width: 60vw;
+    float: right;
+    display: flex;
+    height: 5vh; }
+    #staticNav ul li {
+      width: 20%;
+      text-align: center;
+      height: 5vh;
+      line-height: 5vh; }
 
 /*# sourceMappingURL=master.css.map */

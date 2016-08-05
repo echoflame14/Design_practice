@@ -1,15 +1,16 @@
 /*
 Error: Undefined variable: "$gray".
-        on line 4 of _footerStyles.scss
+        on line 5 of _footerStyles.scss
 
 1: #staticFooter{
-2: 	width:100vw;
-3: 	height: 60vh;
-4: 	background-color:$gray;
-5: }
+2: 	clear:both;
+3: 	width:100vw;
+4: 	height: 60vh;
+5: 	background-color:$gray;
+6: }
 
 Backtrace:
-_footerStyles.scss:4
+_footerStyles.scss:5
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -61,4 +62,4 @@ _footerStyles.scss:4
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray\".\A         on line 4 of _footerStyles.scss\A \A 1: #staticFooter{\A 2: 	width:100vw;\A 3: 	height: 60vh;\A 4: 	background-color:$gray;\A 5: }"; }
+  content: "Error: Undefined variable: \"$gray\".\A         on line 5 of _footerStyles.scss\A \A 1: #staticFooter{\A 2: 	clear:both;\A 3: 	width:100vw;\A 4: 	height: 60vh;\A 5: 	background-color:$gray;\A 6: }"; }
