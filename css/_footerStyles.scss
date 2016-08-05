@@ -5,11 +5,11 @@
 	height: 60vh;
 	background-color:$gray;
 	#container{
-		width:90vw;
+		width:100vw;
 		height:40vh;
 		margin:0 auto;
 		display:flex;
-		justify-content:space-between;
+		justify-content:space-around;
 		padding:5vh 0;
 		#first,#second{
 
@@ -36,7 +36,37 @@
 		}
 		#third{
 			width:40vw;
-			background-color:red;
+			p{
+				padding-top:2.5vh;
+				line-height: 2rem;
+				font-size:1.2rem;
+			}
+			ul{
+
+				height:5vh;
+				display:flex;
+				width:20vw;
+				margin:4vh auto 0 auto;;
+				li{
+					font-size:1.4em;
+					width:4vw;
+				}
+			}
+			i.fa{
+				color:$silver-sand;
+				cursor:pointer;
+			}
+		}
+	}
+	ul#cprite{
+		padding-top:10vh;
+		width:60vw;
+		margin:0 auto;
+		display:flex;
+		li{
+			width:20vw;
+			text-align:center;
+			color:$silver-sand;
 		}
 	}
 }
