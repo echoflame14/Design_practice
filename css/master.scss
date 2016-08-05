@@ -2,3 +2,10 @@
 @import "_colors.scss";
 @import "_footerStyles.scss";
 @import "_navStyles.scss";
+//default styling
+*{
+	box-sizing:border-box;
+}
+body{
+	background-color:$white;
+}

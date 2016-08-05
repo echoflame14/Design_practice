@@ -3,4 +3,21 @@
 	width:100vw;
 	height: 60vh;
 	background-color:$gray;
+	#container{
+		width:90vw;
+		height:40vh;
+		margin:0 auto;
+		display:flex;
+		justify-content:space-between;
+		padding:5vh 0;
+		#first,#second{
+			background-color:blue;
+			width:22.5vw;
+			text-align:center;
+		}
+		#third{
+			width:40vw;
+			background-color:red;
+		}
+	}
 }

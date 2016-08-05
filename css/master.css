@@ -46,6 +46,20 @@ table {
   width: 100vw;
   height: 60vh;
   background-color: #F8F8F8; }
+  #staticFooter #container {
+    width: 90vw;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 0; }
+    #staticFooter #container #first, #staticFooter #container #second {
+      background-color: blue;
+      width: 22.5vw;
+      text-align: center; }
+    #staticFooter #container #third {
+      width: 40vw;
+      background-color: red; }
 
 #staticNav {
   background-color: #FFFFFF;
@@ -87,5 +101,11 @@ table {
     color: #FFFFFF;
     background-color: #8eb1d0;
     border-color: #8eb1d0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #FFFFFF; }
 
 /*# sourceMappingURL=master.css.map */
