@@ -41,12 +41,4 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-#staticFooter {
-  width: 100vw;
-  height: 60vh;
-  background-color: #F8F8F8; }
-
-#staticNav {
-  background-color: #FFFFFF; }
-
-/*# sourceMappingURL=master.css.map */
+/*# sourceMappingURL=_reset.css.map */

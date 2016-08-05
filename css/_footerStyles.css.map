@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAa;EACZ,KAAK,EAAC,KAAK;EACX,MAAM,EAAE,IAAI",
+"sources": ["_footerStyles.scss"],
+"names": [],
+"file": "_footerStyles.css"
+}
