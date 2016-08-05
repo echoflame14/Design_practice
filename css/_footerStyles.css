@@ -9,10 +9,10 @@ Error: Undefined variable: "$gray".
 5: 	height: 60vh;
 6: 	background-color:$gray;
 7: 	font-family: 'Roboto Condensed', helvetica, sans-serif;
-8: 	#container{
-9: 		width:100vw;
-10: 		height:40vh;
-11: 		margin:0 auto;
+8: 	font-weight:300;
+9: 	#container{
+10: 		width:100vw;
+11: 		height:40vh;
 
 Backtrace:
 _footerStyles.scss:6
@@ -67,4 +67,4 @@ _footerStyles.scss:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray\".\A         on line 6 of _footerStyles.scss\A \A 1: #staticFooter{\A 2: 	box-sizing:border-box;\A 3: 	clear:both;\A 4: 	width:100vw;\A 5: 	height: 60vh;\A 6: 	background-color:$gray;\A 7: 	font-family: 'Roboto Condensed', helvetica, sans-serif;\A 8: 	#container{\A 9: 		width:100vw;\A 10: 		height:40vh;\A 11: 		margin:0 auto;"; }
+  content: "Error: Undefined variable: \"$gray\".\A         on line 6 of _footerStyles.scss\A \A 1: #staticFooter{\A 2: 	box-sizing:border-box;\A 3: 	clear:both;\A 4: 	width:100vw;\A 5: 	height: 60vh;\A 6: 	background-color:$gray;\A 7: 	font-family: 'Roboto Condensed', helvetica, sans-serif;\A 8: 	font-weight:300;\A 9: 	#container{\A 10: 		width:100vw;\A 11: 		height:40vh;"; }

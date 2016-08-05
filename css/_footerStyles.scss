@@ -5,6 +5,7 @@
 	height: 60vh;
 	background-color:$gray;
 	font-family: 'Roboto Condensed', helvetica, sans-serif;
+	font-weight:300;
 	#container{
 		width:100vw;
 		height:40vh;
@@ -56,6 +57,9 @@
 			i.fa{
 				color:$silver-sand;
 				cursor:pointer;
+			}
+			i.fa:hover{
+				color:$silver-sand-focus;
 			}
 		}
 	}

@@ -47,7 +47,8 @@ table {
   width: 100vw;
   height: 60vh;
   background-color: #F8F8F8;
-  font-family: 'Roboto Condensed', helvetica, sans-serif; }
+  font-family: 'Roboto Condensed', helvetica, sans-serif;
+  font-weight: 300; }
   #staticFooter #container {
     width: 100vw;
     height: 40vh;
@@ -87,6 +88,8 @@ table {
       #staticFooter #container #third i.fa {
         color: #BBBBBB;
         cursor: pointer; }
+      #staticFooter #container #third i.fa:hover {
+        color: #a1a1a1; }
   #staticFooter ul#cprite {
     padding-top: 10vh;
     width: 60vw;
@@ -107,7 +110,8 @@ table {
   border-top: solid 2px #ECECEC;
   height: 5vh;
   align-items: center;
-  font-family: 'Roboto Condensed', helvetica, sans-serif; }
+  font-family: 'Roboto Condensed', helvetica, sans-serif;
+  font-weight: 300; }
   #staticNav h1 {
     float: left;
     margin-left: 2.5vw;
