@@ -42,6 +42,7 @@ table {
   border-spacing: 0; }
 
 #staticFooter {
+  box-sizing: border-box;
   clear: both;
   width: 100vw;
   height: 60vh;
@@ -54,9 +55,20 @@ table {
     justify-content: space-between;
     padding: 5vh 0; }
     #staticFooter #container #first, #staticFooter #container #second {
-      background-color: blue;
-      width: 22.5vw;
-      text-align: center; }
+      width: 22.5vw; }
+      #staticFooter #container #first h1, #staticFooter #container #second h1 {
+        margin-left: 8.2vw; }
+      #staticFooter #container #first ul, #staticFooter #container #second ul {
+        height: 30vh;
+        margin-left: 8.2vw; }
+        #staticFooter #container #first ul li, #staticFooter #container #second ul li {
+          text-align: left;
+          text-decoration: underline;
+          border-bottom: 1px black solid;
+          padding-bottom: 2vh;
+          padding-top: 2.5vh; }
+        #staticFooter #container #first ul li:hover, #staticFooter #container #second ul li:hover {
+          text-decoration: none; }
     #staticFooter #container #third {
       width: 40vw;
       background-color: red; }

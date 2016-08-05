@@ -1,20 +1,21 @@
 /*
 Error: Undefined variable: "$gray".
-        on line 5 of _footerStyles.scss
+        on line 6 of _footerStyles.scss
 
 1: #staticFooter{
-2: 	clear:both;
-3: 	width:100vw;
-4: 	height: 60vh;
-5: 	background-color:$gray;
-6: 	#container{
-7: 		width:90vw;
-8: 		height:40vh;
-9: 		margin:0 auto;
-10: 		display:flex;
+2: 	box-sizing:border-box;
+3: 	clear:both;
+4: 	width:100vw;
+5: 	height: 60vh;
+6: 	background-color:$gray;
+7: 	#container{
+8: 		width:90vw;
+9: 		height:40vh;
+10: 		margin:0 auto;
+11: 		display:flex;
 
 Backtrace:
-_footerStyles.scss:5
+_footerStyles.scss:6
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -66,4 +67,4 @@ _footerStyles.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray\".\A         on line 5 of _footerStyles.scss\A \A 1: #staticFooter{\A 2: 	clear:both;\A 3: 	width:100vw;\A 4: 	height: 60vh;\A 5: 	background-color:$gray;\A 6: 	#container{\A 7: 		width:90vw;\A 8: 		height:40vh;\A 9: 		margin:0 auto;\A 10: 		display:flex;"; }
+  content: "Error: Undefined variable: \"$gray\".\A         on line 6 of _footerStyles.scss\A \A 1: #staticFooter{\A 2: 	box-sizing:border-box;\A 3: 	clear:both;\A 4: 	width:100vw;\A 5: 	height: 60vh;\A 6: 	background-color:$gray;\A 7: 	#container{\A 8: 		width:90vw;\A 9: 		height:40vh;\A 10: 		margin:0 auto;\A 11: 		display:flex;"; }
